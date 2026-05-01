@@ -64,3 +64,12 @@ let gainBruh : {readonly firstname: string, bouname: string} = {firstname: "Mehe
 const arr: number[] = [1,4,54,43,56,3,5,35,3,45,354,34];
 
 arr.map((p:number)=>{})
+
+
+const objectDes = {name33: "Mehedi", age: 25, class: "10th", others:{phone: 1934343 ,roll: 10}};
+
+// const {name33, age,others:{phone, roll}} = objectDes;
+const {name33:MyName, others: {roll}} = objectDes;
+console.log(MyName,roll);
+
+
