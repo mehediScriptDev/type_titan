@@ -24,4 +24,29 @@ anyd = 33;
 // tuple 
 const soul = ["ami", "tumi"];
 const area = [10, 20, 30, "hello"];
+let worldofobject = {
+    name: "Mehedi",
+    age: 25
+};
+// worldofobject.push()
+let testing = {
+    first: "Mehedi",
+    second: "gangstar",
+    third: "third"
+};
+// testing.third = 33
+let letsTryGain = 44;
+// let newThings: {thik: "ok boss"; nai: string; keno: string} = {thik: "hello", nai: "world", keno: "keno"};
+// newThings.keno=33;
+// newThings.thik = "new value";
+// newThings.keno = "new keno value";
+// newThings.nai = "new nai value";
+let gainBruh = { firstname: "Mehedi", bouname: "dont tell you" };
+// gainBruh.firstname = "John";
+const arr = [1, 4, 54, 43, 56, 3, 5, 35, 3, 45, 354, 34];
+arr.map((p) => { });
+const objectDes = { name33: "Mehedi", age: 25, class: "10th", others: { phone: 1934343, roll: 10 } };
+// const {name33, age,others:{phone, roll}} = objectDes;
+const { name33: MyName, others: { roll } } = objectDes;
+console.log(MyName, roll);
 //# sourceMappingURL=test.js.map

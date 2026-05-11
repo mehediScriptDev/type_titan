@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 15 Pro",
+        "category": "Smartphone",
+        "price": 999.99,
+        "stock": 50,
+        "brand": "Apple",
+        "rating": 4.8
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S24",
+        "category": "Smartphone",
+        "price": 849.99,
+        "stock": 75,
+        "brand": "Samsung",
+        "rating": 4.6
+    },
+    {
+        "id": 3,
+        "name": "Sony WH-1000XM5",
+        "category": "Headphones",
+        "price": 349.99,
+        "stock": 30,
+        "brand": "Sony",
+        "rating": 4.9
+    },
+    {
+        "id": 4,
+        "name": "MacBook Air M3",
+        "category": "Laptop",
+        "price": 1299.99,
+        "stock": 20,
+        "brand": "Apple",
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "name": "Dell XPS 15",
+        "category": "Laptop",
+        "price": 1199.99,
+        "stock": 15,
+        "brand": "Dell",
+        "rating": 4.5
+    }
+]
