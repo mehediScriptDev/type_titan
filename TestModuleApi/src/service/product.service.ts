@@ -7,6 +7,6 @@ export const readProduct = () =>{
     // console.log(process.cwd());
     // console.log(filepath);
     const products = fs.readFileSync(filepath); 
-    console.log(JSON.parse(products));
+    // console.log(JSON.parse(products));
     return JSON.parse(products);
 }
