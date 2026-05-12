@@ -1,8 +1,9 @@
 import type { IncomingMessage, ServerResponse } from "http";
 import { readProduct } from "../service/product.service";
 import type { Product } from "../types/product.typs";
+import { parseBody } from "../utility/parseBody";
 
-export const controllerHandler = (
+export const controllerHandler = async (
   req: IncomingMessage,
   res: ServerResponse,
 ) => {
@@ -25,4 +26,10 @@ export const controllerHandler = (
     res.end(JSON.stringify({message:"data received", data: result}))
     
   }
+  else if(method === "POST" && url === "/products"){
+    const body = await parseBody(req);
+    res.writeHead(200,{"content-type":"application/json"});
+    res.end(JSON.stringify({message:"data received", }))
+  }
+  
 };
